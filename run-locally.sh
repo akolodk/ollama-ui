@@ -6,4 +6,4 @@ PORT=${1-8000}
 ./fetch_resources.sh
 
 # host local webserver
-python3 -m http.server --bind 127.0.0.1 "$PORT"
+python3 -m http.server --bind 0.0.0.0 "$PORT"
